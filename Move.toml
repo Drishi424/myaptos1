@@ -1,0 +1,15 @@
+[package]
+name = "Penalty-based-withdrawal-contracts"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule = "0x680a7cabb7b812d25f383e8beecd77e5e4de25360d9e029b987e7ae4a9c56333"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
